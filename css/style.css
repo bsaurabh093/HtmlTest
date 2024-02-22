@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.topHeader{
+    background-color: #003d5d;
+    padding: 10px;
+    color: #fff;
+}
+
+.topContent p{
+    margin: 0;
+}
+
+.topContact{
+    float: right;
+}
+
+.menu{
+    position: absolute;
+    width: 100%;
+}
+
+.menu .container-fluid{
+    padding: 0;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navba {
+    color: rgb(255 255 255);
+    border-bottom: 3px solid #fff;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: rgb(255 255 255);
+    border-bottom: 3px solid #fff;
+}
+
+.nav-link {
+    color: rgb(255 255 255);
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    padding: 10px;    
+}
+
+.navbar-nav li:last-child a:hover{
+    border: none;
+}
+
+.navbar-expand-lg .navbar-nav {
+    gap: 50px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.menu .contactBtn{
+    padding: 10px 50px !important;
+    background: #fff;
+    color: #000;
+    border-radius: 33px;
+}
+
+.bg-body-tertiary{
+    background-color: transparent !important;
+}
+
+.slider{
+    background:url(../img/Rectangle\ 1.png);
+    height: 800px;
+}
+
+.slider .caption{
+    color: #fff;
+    display: flex;
+    height: 80%;
+    align-items: end;
+}
+
+.slider .caption h2{
+    font-family: "Prata", serif;
+    font-size: 5rem;
+    line-height: 110px;
+}
+
+.slider .caption h2 span{
+    display: block;
+}
+
+.slider .caption p{
+    font-size: 1.4rem;
+}
+
+.properties{
+    padding: 40px;
+}
+
+.heading{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading h2{
+    font-family: "Prata", serif;
+    color:#272727;
+    font-size: 2.4rem;
+}
+
+.heading p{
+    color:#515151;
+    font-size: 1.3rem;
+}
+
+.propertyCard{
+    margin-top: 30px;
+    
+}
+
+.propertyCard:hover .propertyDetails{
+    box-shadow: 0px 0px 2px 3px #77777729;
+}
+
+.propertyCard img{
+    width: 100%;
+}
+
+.propertyDetails{
+    padding: 25px ;
+    transition: .5s ease-in-out;
+}
+
+.propertyCard h3{
+    font-family: "Prata", serif;
+    font-size: 1.3rem;
+    color: #272727;
+}
+
+.propertyCard p{
+    color: #003d5d;
+    font-size: 1.5rem;
+}
+
+.readMoreBtn{
+    color: #003d5d;
+    border: 2px solid;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.viewBtn{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.viewAllBtn{
+    border: 2px solid;
+    font-size: 1.2rem;
+    padding: 6px 40px;
+    text-decoration: none;
+    color: #003d5d;
+}
+
+.contact{
+    background: url(../img/Rectangle\ 101.png);
+    background-size: cover;
+    padding-top: 80px ;
+}
+
+.profile{
+    padding-top: 30px;
+}
+
+.profile h2{
+    font-family: "Prata", serif;
+    font-size: 2.3rem;
+    color: #272727;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.profile p{
+    font-size: 1.2rem;
+}
+
+.connect{
+    background-color: #003d5d;
+    padding: 60px;
+    color: #fff;
+}
+
+.connect h2{
+    font-family: "Prata", serif;
+    font-size: 2rem;
+}
+
+form label{
+    display: block;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+
+form :where(input, textarea){
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border:1px solid #fff;
+    padding: 10px;
+}
+
+.submitBtn{
+    background-color: transparent;
+    padding: 5px 50px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+footer{
+    color: #acacac;
+    display: block;
+    margin-top: 80px;
+    font-size: 1.1rem;
+}
+
+.chatBox{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+@media(max-width:767px){
+    .slider .caption h2 {
+        font-family: "Prata", serif;
+        font-size: 2rem;
+        line-height: 50px;
+    }
+    .menu {
+        position: relative;
+        width: 100%;
+        background: #0c4868;
+    }
+    .navbar-brand img{
+        width: 100px;
+    }
+    .navbar-expand-lg .navbar-nav {
+        gap: 10px;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navba {
+        color: rgb(255 255 255);
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav-link{
+        font-size: 1rem;
+    }
+    .slider {
+        background: url(../img/Rectangle\ 1.png);
+        height: 450px;
+    }
+    .slider .caption {
+        height: 90%;
+    }
+    .slider .caption p {
+        font-size: 1rem;
+    }
+    .heading {
+        width: 100%;
+    }
+    .heading h2 {
+        font-size: 2rem;
+    }
+    .heading p {
+        color: #515151;
+        font-size: .7rem;
+    }
+    .profile h2 {
+        font-size: 2rem;
+        padding: 20px 0;
+    }
+    .profile p {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 20px !important;
+    }
+
+    .contact img{
+        width: 100%;
+    }
+    .connect {
+        background-color: #003d5d;
+        padding: 30px;
+    }
+    
+}
